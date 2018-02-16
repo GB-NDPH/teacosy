@@ -1,0 +1,53 @@
+/* whole page */
+
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: SeaShell;
+	background-color: black;
+	opacity: 0.9;
+}
+
+a {
+	color: SeaShell
+}
+
+nav span {
+	display: inline-block;
+	padding: 23px 10px
+}
+
+/* header */
+
+header {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 69px;
+	border-bottom: 1px solid SeaShell;
+}
+.logo{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	}
+
+img{
+	height: 50px;
+	color: SeaShell
+}
+.logo span{
+	color: SeaShell
+}
+
+header nav{
+	padding-right: 10px;
+}
+.menu{
+	color: SeaShell;
+	opacity: 0.9;
+	font-weight: bold;
+	margin-left: 650px;
+}
